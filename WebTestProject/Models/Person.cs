@@ -7,6 +7,7 @@ namespace WebTestProject.Models
 {
     public class Person
     {
+        public string Telephone { get; set; }
         public string Cpf { get; set; }
         public string Name { get; set; }
         public string Surname { get; set; }
